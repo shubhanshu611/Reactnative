@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "AndroidApp",
+    "slug": "AndroidApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicons.png",
+    "splash": {
+      "image": "./assets/examplesplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appicons.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.roadsidecoder.inshortsclone"
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60a09f00-ba99-44c3-8e56-120f505a0fb3"
+      }
+    }
+  }
+}
